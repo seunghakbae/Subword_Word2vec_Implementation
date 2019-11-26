@@ -40,15 +40,41 @@ def get_corpus(part="part", ng_small=3, ng_big=6, use_subsample=True):
     for word,index in word2ind.items():
         ind2word[index] = word
 
-    print("Vocabulary size")
-    print(len(word2ind))
+    print("Vocabulary size : " +str(len(word2ind)))
 
     # create n-gram corpus
 
+    print("splitting into n-grams...")
     # create vocab_bracket to add brackets to each word
-    vocab_bracket = []
+
+    # create dictionary with all n-grams
+    subword_corpus = {}
 
     for word in vocabulary:
-        vocab_bracket.append("<" + word + ">")
+        subword_corpus[word] = create_subword(word, ng_small, ng_big)
 
-    print(vocab_bracket)
+
+
+
+    return None, None
+
+def hash(sub_word, k = 2.10 * (10 ** 6)):
+
+    fnv_offset_basis = 0xcbf29ce484222325
+    fnv_prime = 0x100000001b3
+
+    for char in sub_word:
+        print(ord(char))
+
+
+def create_subword(word,ng_small, ng_big):
+
+    wrapped = "<" + word + ">"
+
+    subword_corpus = []
+
+    for ng in range(ng_small, ng_big+1): # from ng_small to ng_big
+            for i in range(len(wrapped)-ng+1):
+                subword_corpus.append(wrapped[i:i+ng])
+
+    return subword_corpus

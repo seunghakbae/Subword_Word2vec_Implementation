@@ -1,5 +1,7 @@
 from Config import config
 from Corpus import get_corpus
+from Train import word2vec_trainer
+
 def main():
     args = config()
     ns = args.ns # value for ns
@@ -10,6 +12,6 @@ def main():
 
     word_corpus,subword_corpus = get_corpus(part, ng_small, ng_big,use_subsample)
     emb_, _ = word2vec_trainer(word_corpus, subword_corpus, ns=ns, dimension=64, learning_rate=0.05, iteration=50000)
-    test(emb)
+#    test(emb)
 
 main()
