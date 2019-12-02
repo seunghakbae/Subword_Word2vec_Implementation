@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71ace47b-260c-40bf-ad2d-331285d58dd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Corpus.py" beforeDir="false" afterPath="$PROJECT_DIR$/Corpus.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Train.py" beforeDir="false" afterPath="$PROJECT_DIR$/Train.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +110,10 @@
       <updated>1574654656817</updated>
       <workItem from="1574654658003" duration="719000" />
       <workItem from="1574688713809" duration="9077000" />
+      <workItem from="1574759793209" duration="1832000" />
+      <workItem from="1574818746320" duration="3211000" />
+      <workItem from="1575160435964" duration="960000" />
+      <workItem from="1575212452092" duration="15494000" />
     </task>
     <servers />
   </component>
@@ -120,7 +125,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -128,6 +135,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Subword_Word2vec_Implementation$Corpus.coverage" NAME="Corpus Coverage Results" MODIFIED="1574722098786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Subword_Word2vec_Implementation$Main.coverage" NAME="Main Coverage Results" MODIFIED="1574736536078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Subword_Word2vec_Implementation$Main.coverage" NAME="Main Coverage Results" MODIFIED="1575279003464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
