@@ -1,0 +1,114 @@
+loading...
+tokenizing...
+146448
+Discard : 50349
+Vocabulary size : 3971
+splitting into n-grams...
+hash size : 31927
+Loss : 12.992360
+Loss : 0.440835
+Loss : 0.001866
+Loss : 0.000986
+Loss : 0.000659
+
+===============================================
+The most similar words to "narrow-mindedness"
+narrow:0.577
+game:0.430
+theatre:0.418
+valuable:0.384
+active:0.378
+===============================================
+
+
+===============================================
+The most similar words to "department"
+dependent:0.467
+treatment:0.424
+experiment:0.410
+discussing:0.388
+sudan:0.372
+===============================================
+
+
+===============================================
+The most similar words to "campfires"
+bitumen:0.458
+requires:0.450
+additionally:0.450
+campaign:0.446
+carthage:0.443
+===============================================
+
+
+===============================================
+The most similar words to "knowing"
+know:0.597
+wing:0.528
+showing:0.515
+known:0.515
+knowledge:0.488
+===============================================
+
+
+===============================================
+The most similar words to "urbanize"
+urban:0.534
+convert:0.386
+bar:0.385
+join:0.384
+slave:0.362
+===============================================
+
+
+===============================================
+The most similar words to "imperfection"
+direction:0.722
+section:0.675
+function:0.564
+perfect:0.556
+sections:0.554
+===============================================
+
+
+===============================================
+The most similar words to "principality"
+principal:0.831
+causality:0.444
+principle:0.440
+principles:0.409
+price:0.394
+===============================================
+
+
+===============================================
+The most similar words to "abnormal"
+normal:0.867
+normally:0.604
+formal:0.548
+causation:0.459
+sheikh:0.403
+===============================================
+
+
+===============================================
+The most similar words to "secondary"
+second:0.781
+seconds:0.655
+raised:0.424
+improving:0.388
+selfish:0.376
+===============================================
+
+
+===============================================
+The most similar words to "ungraceful"
+useful:0.430
+values:0.425
+common:0.419
+contributed:0.400
+charges:0.390
+===============================================
+
+
+Process finished with exit code 0

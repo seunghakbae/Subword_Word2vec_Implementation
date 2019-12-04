@@ -17,5 +17,4 @@ def main():
     testwords = ["narrow-mindedness", "department", "campfires", "knowing", "urbanize", "imperfection", "principality", "abnormal", "secondary", "ungraceful"]
     sim(testwords, corpus, emb)
 
-
 main()

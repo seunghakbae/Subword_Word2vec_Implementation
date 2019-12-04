@@ -135,14 +135,14 @@ class Corpus:
 
         print("hash size : " + str(len(self.total_hash)))
 
-    def fnv_hash(self, sub_word, k = 2100000):
+    def fnv_hash(self, str, k = 2100000):
 
         fnv_offset_basis = 0xcbf29ce484222325 # fnv offset basis
         # fnv_offset_basis = 0x811c9dc5
         fnv_prime = 0x100000001b3 # fnv_prime
 
         hash = fnv_offset_basis
-        for s in sub_word: # for each character
+        for s in str: # for each character
             hash = hash ^ ord(s) # XOR
             hash *= fnv_prime # multiply by fnv_prime
             hash = hash % k
